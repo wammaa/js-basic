@@ -6,8 +6,8 @@ let z = 1
 let sum = 0
 
 while(z<=100){
-  sum += z
-  z++
+  sum += z;
+  z++;
   console.log(sum)
 }
 
@@ -20,8 +20,8 @@ for(let a = 0; a <=100; a++){
 let x = 1
 
 while(x<=100){
-  console.log(x%2===0?'':x )
-  x++
+  x%2===0?null:console.log(x);
+  x++;
 }
 
 for(let b = 1; b<=50; b++){
@@ -48,16 +48,5 @@ if(n === 1){
   }
 }
 console.log(isPrime)
-
-let m = 14
-let result1 = 'true'
-
-for(k = 2; k<m; k++){
-  if(m%k === 0 || m === 1){
-    result1 = 'False'
-  }
-}
-console.log(result1)
-
 
 
